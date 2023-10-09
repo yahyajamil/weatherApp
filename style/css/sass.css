@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+}
+
+.app {
+  background-image: linear-gradient(to right bottom, #051937, #002941, #00373e, #084334, #374c2c);
+  width: 100%;
+  height: 100vh;
+}
+
+.title {
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1.5px;
+}
+
+.card-container,
+.input-container {
+  background-color: #ffffff !important;
+  width: 350px;
+  border-radius: 0.75rem;
+}
+.card-container .cityInput,
+.input-container .cityInput {
+  outline: none !important;
+  width: 100%;
+}
+
+.Temp {
+  font-size: 3.5rem;
+  color: #1C2331;
+  font-weight: 400;
+}
+
+.status div span {
+  font-size: 18px;
+  color: #1C2331;
+}
+.status div i {
+  font-size: 16px;
+  color: #868B94;
+}
+
+.weather-image img {
+  width: 120px !important;
+  height: 120px !important;
+}
+
+.city, .time {
+  font-family: "Gill Sans", "Gill Sans MT";
+}/*# sourceMappingURL=sass.css.map */
